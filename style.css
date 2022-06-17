@@ -1,0 +1,62 @@
+body {
+  font-size: 18px;
+  font-family: Roboto, sans-serif;
+  background-color: #1f2937;
+  
+}
+.header {
+  background-color: #1f2937;
+  display: flex;
+  flex: 1;
+  
+}
+.header-logo {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+ul {
+  list-style: none;
+  
+}
+ul a {
+  text-decoration: none;
+  color: #e5e7eb;
+  
+}
+
+.hero-container {
+  background-color: #1f2937;
+  display: flex;
+  flex: 1;
+}
+
+.hero {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
+}
+
+.hero-text {
+  color: #e5e7eb;
+}
+
+.hero-button {
+  background-color: #3882f6;
+  color: #e5e7eb
+}
+
+.hero-image {
+  display: flex;
+  flex: auto;
+
+}
+
+.hero-image img {
+  height: auto;
+  max-width: 200px;
+}
+
+.body {
+  background-color: white;
+}
