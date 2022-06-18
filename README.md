@@ -1,1 +1,2 @@
 # Landing-Page
+This is my very first project done from scratch, following a template and a reference of how it should be; I'd probably be using this template in the (near) future to set up a proper website when I have the required knowledge.
