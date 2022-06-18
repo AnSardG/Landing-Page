@@ -111,6 +111,7 @@ ul a {
   flex-wrap: nowrap;
   justify-content: center;
   gap: 28px;
+  text-align: center;
 
 }
 .images-subtext div {
@@ -138,12 +139,49 @@ ul a {
 }
 .sign-up-container {
   display: flex;
-  flex: 1;
-  padding: 5px 270px;
+  width: 900x;
+  margin: 100px 140px 80px;
   background-color: #3882f6;
-  margin: 50px;
+  padding: 30px 60px;
+  border: solid #3882f6 5px;
+  border-radius: 10px;
+  gap: 80px;
+  color: #f9faf8;
+  align-items: center;
+  
+}
+.sign-up-text {
+  margin-left: 50px;
+
+}
+.sign-up {
+  font-size: 24px;
+  font-weight: bolder;
+}
+
+.sign-up-button {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  width: fit-content;
+  justify-content: center;
+  border: solid 3px #f9faf8;
+  background-color: #3882f6;
+  color: #f9faf8;
+  padding: 8px 20px;
+  margin: 20px 40px;
+  border-radius: 8px;
+
 }
 .footer {
-  padding: 5px 270px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  padding: 25px 270px;
   background-color: #1f2937;
+  color: #e5e7eb;
+
+  
 }
