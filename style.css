@@ -145,7 +145,7 @@ ul a {
   width: 900x;
   margin: 100px 140px 80px;
   background-color: #3882f6;
-  padding: 30px 60px;
+  padding: 30px 40px;
   border: solid #3882f6 5px;
   border-radius: 10px;
   gap: 80px;
@@ -178,11 +178,16 @@ ul a {
 }
 .footer {
   display: flex;
+  flex: 1;
+  
+  bottom: 0;
+
   justify-content: center;
   align-items: center;
-  padding: 25px 270px;
+  padding: 15px 270px;
   background-color: #1f2937;
   color: #e5e7eb;
+  min-height:20px;
+  position: sticky;
 
-  
 }
